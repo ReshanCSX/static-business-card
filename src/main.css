@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter, sans-serif;
+    background-color: #1E1F26;
+
+}
+
+.container{
+    border-radius: 10px;
+    background-color: #1A1B21;
+    max-width: 317px;
+    margin: auto;
+}
+
+header > h1, h4 {
+    text-align: center;
+}
+
+header > h1 {
+    color: white;
+    font-weight: 600;
+    margin: 21px 0px 0px 0px;
+    padding: 0px;
+    font-size: 25px;
+}
+
+header > h4 {
+    color: #F3BF99;
+    font-weight: 400;
+    margin: 6.19px;
+    font-size: 12.8px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.contacts > button{
+    border-radius: 6px;
+    width: 115px;
+    height: 34px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts > button > img{
+    padding-right: 9px;
+    margin: 0px;
+}
+
+.email{
+    border: 1px solid #1E1F26;
+    color: #374151;
+    background-color: #D1D5DB;
+}
+
+.linkedin{
+    color: #FFFFFF;
+    background-color: #5093E2;
+    border: 1px solid #000000;
+    margin-left: 17px;
+}
+
+.section-about, .section-interests{
+    color: #DCDCDC;
+    padding: 0px 34px 0px 36px;
+}
+
+.section-about > h5{
+    margin-top: 33px;
+}
+
+.section-interests > h5{
+    margin-top: 27px;
+}
+
+section > h5{
+    font-size: 20px;
+    color: #F5F5F5;
+    margin: 0px;
+}
+
+section > p {
+    font-size: 10.25px;
+    margin-top: 5px;
+}
+
+footer{
+    margin-top: 42px;
+    background-color: #161619;
+    padding: 20px 73px;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
